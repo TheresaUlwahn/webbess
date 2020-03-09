@@ -126,7 +126,7 @@ header a {
   background-color: #dcdcdc;
 }
 
-*******FOR MORE WITH SOCIAL MEDIA ICON**********
+/*FOR MORE WITH SOCIAL MEDIA ICON*/
 
 .box {
   width: 100%;
@@ -176,7 +176,7 @@ footer a {
   color: white;
 }
 
-/*******MEDIA QUERIES *********/
+/*MEDIA QUERIES */
 
 @media (min-width: 650px) {
     
