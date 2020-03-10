@@ -26,29 +26,29 @@ html {
 /* FONT */
 
 h1 {
-    color: white;
-    font-size: 65px;
-    font-weight: 700;
-    margin: 40px;
+  color: white;
+  font-size: 65px;
+  font-weight: 700;
+  margin: 100px;
+
 }
 
 h2 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 h3 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 p {
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 1.5;
-    color: white;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.5;
 }
 
 
-/* HEADER WITH HEROPICTURE */
+/* HEADER WITH HEROPICTURE AND NAVBAR*/
 
 header {
   /* The "linear-gradient" gives a darker feeling to the her image*/
@@ -59,6 +59,7 @@ header {
   padding: 100px 0;
   /* The image change size on all screens */
   position: relative;
+  color: white;
 }
 
 /*nav bar becomes hamburger model*/
@@ -189,11 +190,18 @@ footer a {
   /*Show the navbar and hide the hamburger in this size*/
 
   nav {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: space-around;
     text-align: center;
-  }
+    width: -webkit-fill-available;
+}
   .hamburger {
     display: none;
+  }
+
+  header a {
+    position: relative;
+   
   }
 }
 
